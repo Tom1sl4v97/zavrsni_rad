@@ -1,0 +1,6 @@
+(64, 4, 'afsas', 197, 9),
+(65, 5, 'asfdasf', 197, 1),
+(66, 4, 'dasdasd', 202, 6),
+(67, 10, 'Jako mi se sviđa vlak :D', 203, 1),
+(69, 5, 'ok', 211, 4),
+(71, 10, 'jako dobar vlak i izložba', 211, 1)

@@ -1,0 +1,11 @@
+(2, 'Vruća stvar', 80, 185, 'Stari vlak, male brzine, jer je parni vlak.', 3, 6),
+(5, 'Eko-Elektro', 130, 300, 'Eko-Elektro je vlak koji se brine za okoliš, jer je električni vlak modernog dizajna sa mnogo sjedala.', 2, 9),
+(6, 'Mrak', 105, 150, 'Mrak je prosječan vlak sa pogonom na benzin', 4, 6),
+(8, 'Mjesec', 148, 192, 'Mjesec je vlak na benzin, modernog dizajna i modernim uslugama (poput wifi, mini tv, WC, usluge bara i slično).', 4, 9),
+(12, 'Elektro vlak', 160, 300, 'Električni vlak', 2, 4),
+(22, 'Gromp', 160, 103, 'Gromp je srednji vlak, modernog izgleda. Najpoznatiji vlak u sjevernom sijelu rumunjske. ', 9, 3),
+(23, 'Resetka', 32, 323, 'Veliki i moderni vlak. Vrsta pogona naše kokice je parni pogon. ', 3, 3),
+(25, 'Magnetska strijela', 320, 350, 'Veliki i moderni vlak. Vrsta pogona naše kokice je parni pogon. ', 3, 3),
+(26, 'Loki', 160, 310, 'Loki je spori vlak sa mnogo broja sjedala', 9, 1),
+(39, 'Kravica', 123, 135, 'kravica je maleni vlakić, sa raznolikim bojama. Vožnja je izrazito ugodna i osvježavajuća.', 2, 1),
+(42, 'Magnetska strijela', 123, 222, 'Relativno brzi vlak, sa dovoljno broj sjedala. Modernog izgleda.', 2, 1)

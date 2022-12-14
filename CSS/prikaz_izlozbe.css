@@ -1,0 +1,155 @@
+section h2 {
+    width: 100%;
+    font-size: 26px;
+    text-align: left;
+    padding: 0 40px 0 40px;
+}
+section .izlozbaVlakova{
+    border-radius: 0 0 25px 25px;
+    border: solid black 1px;
+    width: 92%;
+    height: 100%;
+    margin: 5px 4% 5px 4%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+section .naslov{
+    width: 100%;
+    border: solid black 1px;
+    font-size: 20px;
+    text-align: center;
+    padding: 15px 0px;
+}
+section .podkategorije{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 15px 10px 15px;
+}
+section .podkategorije2{
+    font-size: 16px;
+    text-align: left;
+    padding: 0px 15px 15px 15px;
+}
+.prikazForme{
+    margin: 0 2.5%;
+    width: 95%;
+    border: none;
+    background-color: transparent;
+}
+
+.dodaj{
+    display: block;
+    text-decoration: none;
+    padding: 5px 15px;
+    background-color: #87684c;
+    border: none;
+    width: auto;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.dodaj:hover {
+    opacity: 1
+}
+.dodaj2{
+    text-decoration: none;
+    padding: 3px;
+    background-color: #87684c;
+    border: none;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.dodaj2:hover {
+    opacity: 1
+}
+.kutija{
+    height: 300px;
+}
+.prikazKorisnika {
+    width: auto;
+    border: solid black 2px;
+    margin: 20px 5px 10px 5px;
+    font-size: 20px;
+}
+.prikazTekstaLijevi{
+    padding: 20px 10px 20px 480px;
+}
+.prikazTekstaDesni{
+    padding: 20px 10px 20px 30px;
+}
+.slikaKorisnikaLijeva{
+    display: block;
+    float: left;
+    height: 300px;
+    width: 450px
+}
+.slikaKorisnikaDesna{
+    display: block;
+    float: right;
+    height: 300px;
+    width: 450px;
+}
+
+.slika_izlozbe{
+    width: 55%;
+    margin: 0;
+    padding-top: 30px;
+    float: right;
+}
+.popUpForma{
+    width: 80%;
+    padding-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+.prikaz_informacija{
+    font-size: 18px;
+    padding-left: 40px;
+}
+
+@media only screen and (min-width: 0px) and (max-width: 1370px){
+    .kutija{
+        width: 100%;
+        height: auto;
+    }
+    .slikaKorisnikaLijeva{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .slikaKorisnikaDesna{
+        display: block;
+        float: none;
+        width: 100%;
+    }
+    .prikazTekstaLijevi{
+        padding: 20px 10px 20px 30px;
+    }
+    .prikazTekstaDesni{
+        padding: 20px 10px 20px 30px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    .resetka {
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media only screen and (min-width: 900px) and (max-width: 1300px){
+    .resetka {
+        display: grid;
+        grid-template-columns: auto auto auto;
+    }
+}
+@media only screen and (min-width: 1300px){
+    .resetka {
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+    }
+}

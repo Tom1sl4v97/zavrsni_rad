@@ -1,0 +1,44 @@
+@keyframes slider1 {
+    0%  {	left: 0;}
+    10% {	left: 0;}
+    20% {	left: -100%;}
+    30% {       left: -100%;}
+    40% {	left: -200%;}
+    50% {	left: -200%;}
+    60% {	left: -300%;}
+    70% {	left: -300%;}
+    80% {	left: -400%;}
+    90% {	left: -400%;}
+    100% {	left: -400%;}
+}
+#slider {	
+    overflow: hidden;
+}
+#slider figure img {
+    width: 20%;
+    float: left;
+}
+#slider figure {
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    text-align: left;
+    animation: 20s slider1 infinite;
+}
+.prikazSlike {
+    height: 620px;
+    width: 720px;
+}
+@media only screen and (min-width: 900px) and (max-width: 1200px){
+    .prikazSlike {
+        height: 480px;
+        width: 720px;
+    }
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    .prikazSlike {
+        height: 380px;
+        width: 720px;
+    }
+}

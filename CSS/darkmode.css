@@ -1,0 +1,12 @@
+body{
+    background-color: black !important;
+}
+.slikaGumbaDarkMode{
+    background-image: url('../multimedija/night-mode.png');
+}
+.slikaGumbaAccessibility {
+    background-image: url('../multimedija/accessibilitydark.png');
+}
+.slikaGumbaPomoci {
+    background-image: url('../multimedija/upitnikDarkMode.png');
+}

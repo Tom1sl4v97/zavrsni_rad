@@ -1,0 +1,89 @@
+body{
+    letter-spacing: 3px;
+    line-height: 2;
+    font-family: "Arial";
+    font-size: 20px;
+}
+header {
+    background-color: #FEFFE4;
+    color: black;
+    font-size: 20px;
+    border: 2px solid black;
+}
+header > h1 a{
+    color: black;
+    font-size: 50px;
+}
+nav {
+    width: auto;
+    background-color: #FEFFE4;
+    color: black;
+    border: 2px solid black;
+    font-size: 25px;
+}
+nav > ul li a {
+    color: black;
+}
+nav > ul li a:hover{
+    color: white;
+    background: black;
+}
+footer {
+    background-color: #FEFFE4;
+    border: 2px solid black;
+    color: black;
+}
+footer a {
+    color: black;
+}
+footer span {
+    color: black;
+}
+.dodaj{
+    background-color: black !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 2;
+    font-family: "Arial";
+    color: white;
+}
+.dodaj2{
+    background-color: black !important;
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 2;
+    font-family: "Arial";
+    color: white;
+}
+.prikazGumbicaUredivanja {
+    font-weight: bold;
+    letter-spacing: 3px;
+    line-height: 2;
+    font-family: "Arial";
+}
+.prikazTablice th {
+    background-color: black !important;
+    color: white !important;
+}
+.kutija{
+    width: 100% !important;
+    height: auto !important;
+}
+.slikaKorisnikaLijeva{
+    padding: 20px 0 20px 25% !important;
+    display: block !important;
+    float: none !important;
+    width: 50% !important;
+}
+.slikaKorisnikaDesna{
+    padding: 20px 0 20px 25% !important;
+    display: block !important;
+    float: none !important;
+    width: 50% !important;
+}
+.prikazTeksataLijevi{
+    padding: 20px 10px 20px 30px !important;
+}
+.prikazTeksataDesni{
+    padding: 20px 10px 20px 30px !important;
+}

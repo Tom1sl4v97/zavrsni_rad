@@ -1,0 +1,92 @@
+.pravokutnik1 {
+    position: absolute;
+    text-align: right;
+    top: 100px;
+    padding: 10px 0px 0px 0px;
+    left: 15%;
+    border: 3px solid red;
+    width: 70%;
+    height: 55px;
+    color: black;
+    background: transparent;
+    display: none;
+}
+.pravokutnik2 {
+    position: absolute;
+    text-align: right;
+    display: none;
+    top: 155px;
+    padding: 10px 12px 0px 0px;
+    left: 15%;
+    border: 3px solid red;
+    width: 68%;
+    height: 305px;
+    color: black;
+    background: transparent;
+}
+.pravokutnik3 {
+    position: absolute;
+    text-align: right;
+    display: none;
+    top: 325px;
+    padding: 0px 20px 0px 0px;
+    left: 37.5%;
+    border: 3px solid red;
+    width: 25.6%;
+    height: 75px;
+    color: black;
+    background: transparent;
+}
+.pravokutnik4 {
+    position: absolute;
+    text-align: right;
+    display: none;
+    top: 580px;
+    padding: 0px 20px 0px 0px;
+    left: 40.5%;
+    border: 3px solid red;
+    width: 31.6%;
+    height: 50px;
+    color: black;
+    color: white;
+    background: transparent;
+}
+.pravokutnik5 {
+    position: absolute;
+    display: none;
+    padding: 0px 20px 0px 0px;
+    right: 20px;
+    bottom: 110px;
+    border: 3px solid red;
+    width: 15.6%;
+    height: 90px;
+    color: black;
+    background: transparent;
+}
+.pravokutnik6 {
+    position: absolute;
+    display: none;
+    padding: 0px 20px 0px 0px;
+    right: 20px;
+    bottom: 25px;
+    border: 3px solid red;
+    width: 15.6%;
+    height: 90px;
+    color: black;
+    background: transparent;
+}
+.pravokutnik7 {
+    position: absolute;
+    display: none;
+    padding: 0px 20px 0px 0px;
+    right: 20px;
+    bottom: 25px;
+    border: 3px solid red;
+    width: 8.6%;
+    height: 160px;
+    color: black;
+    background: transparent;
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+
+}

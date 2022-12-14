@@ -1,0 +1,55 @@
+.prikazDropDown{
+    background-color: #bfab97;
+    color: white;
+    width: 99.6%;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 5px 0px;
+    padding: 5px;
+}
+.okvirForme{
+    width: 97%;
+    padding: 1%;
+}
+.okvirForme2{
+    font-size: 16px;
+    font-weight: bold;
+    width: 97%;
+    padding: 1%;
+    background-color: #bfab97;
+    color: white;
+}
+.gumbPrijava{
+    display: inline-block;
+    padding: 10px 25px;
+    background-color: #87684c;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 4px 2px;
+    opacity: 0.5;
+    transition: 0.4s;
+}
+.gumbPrijava:hover {
+    opacity: 1
+}
+.gumbPrijava2{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 25px;
+    background-color: #87684c;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 18px;
+    margin: 0px 10px 10px 0px;
+    opacity: 0.6;
+    transition: 0.4s;
+}
+.gumbPrijava2:hover {
+    opacity: 1
+}
+form a {
+    text-decoration: none;
+}

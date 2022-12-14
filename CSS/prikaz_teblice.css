@@ -1,0 +1,59 @@
+table {
+    margin-left: 2.5%; 
+    margin-right: 2.5%; 
+    width: 95%;
+}
+table .naslov{
+    font-size: 26px;
+    font-weight: bold;
+    text-align: left;
+    padding: 0px 0px 10px 25px;
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 5px 10px;
+    text-align: left;
+}
+.prikazTablice tr:nth-child(odd) {
+    background-color: white;
+}
+.prikazTablice tr:nth-child(even) {
+    background-color: #e3dfd1;
+}
+.prikazTablice th {
+    background-color: #87684c;
+    color: #e3dfd1;
+}
+.prikazTabliceKodPrikazaPrijave th {
+    background-color: #87684c;
+    color: #e3dfd1;
+}
+.prikazGumbicaUredivanja {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    background-color: transparent; 
+    border: none; 
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width: 0px) and (max-width: 900px){
+    table{
+        width: 100%;
+        margin: 0px;
+    }
+}
+.rss{
+    margin-left: 10px; 
+    border: none;
+    background-image: url('../multimedija/moon.png');
+    background-size: cover;
+    background-image: url('../multimedija/RSS.png');
+    width: 20px;
+    height: 20px;
+}
